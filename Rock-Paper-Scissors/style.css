@@ -1,0 +1,11 @@
+.body {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.button {
+    background-color: black;
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+}

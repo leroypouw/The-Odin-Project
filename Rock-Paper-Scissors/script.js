@@ -6,16 +6,28 @@ function computerPlay () {
 
     let playerGameScore = 0;
     let computerGameScore = 0;
-
+    let playerHand = "";
 
 function playerPlay () {
     let playerHand = document.getElementById("playerChoice").value;
-    return playerHand;
 }    
 
+document.getElementById("playerChoiceRock").addEventListener("click", 
+function playerPlay () {});
+
+document.getElementById("playerChoicePaper").addEventListener("click", 
+function () { 
+    alert("I fancy paper");
+});
+
+document.getElementById("playerChoiceScissor").addEventListener("click", 
+function () { 
+    alert("I adore scissors");
+});
 
 
-for (let i=0; i<5; i++) {
+
+/* for (let i=0; i<5; i++) {
     
     const playerSelection = playerPlay();
     
@@ -48,7 +60,11 @@ for (let i=0; i<5; i++) {
     console.log(computerSelection);
     console.log(playRound());
     
-};
+}; */
+
+console.log(playerHand);
+console.log(playerPlay);
+
 
 console.log(playerGameScore);
 console.log(computerGameScore);
